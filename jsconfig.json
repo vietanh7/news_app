@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "paths": {
+      "common": ["common"],
+      "screens": ["screens"],
+      "components": ["components"],
+      "navigation": ["navigation"],
+      "services": ["services"],
+      "utils": ["utils"],
+      "graphqls": ["graphqls"],
+      "actions": ["actions"],
+      "reducers": ["reducers"],
+      "store": ["store"],
+      "constants": ["constants"],
+      "customfont": ["customfont"],
+      "models": ["models"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
