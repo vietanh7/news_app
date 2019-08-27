@@ -75,4 +75,9 @@ export default StyleSheet.create({
     marginRight: 10,
     marginTop: 10,
   },
+  time: {
+    fontSize: 12,
+    color: AppColors.primaryDark,
+    marginTop: 5,
+  },
 });

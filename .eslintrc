@@ -1,0 +1,39 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "window": true,
+    "require": true,
+    "module": true,
+    "__DEV__": true
+  },
+  "plugins": ["react", "react-native"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "legacyDecorators": true
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "arrow-body-style": "off",
+    "indent": ["warn", 2, {"SwitchCase": 1}],
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "semi": "warn"
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.0",
+      "flowVersion": "0.75"
+    },
+    "propWrapperFunctions": ["forbidExtraProps"]
+  }
+}

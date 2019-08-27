@@ -75,6 +75,7 @@ export default class HomeScreen extends Component {
         NavigationService.pushToScreen(ScreenID.ContentScreen, {artical: item})
       }>
       <Text style={styles.titleArtical}>{item.title}</Text>
+      <Text style={styles.time}>3 days ago</Text>
       <Text style={styles.sourceArtical}>{item.source}</Text>
       <View style={styles.tag}>
         {item.industries.map(t => (
